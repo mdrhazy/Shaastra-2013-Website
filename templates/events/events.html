@@ -1,3 +1,10 @@
+<!--Google analytics event tracker-->
+
+<script type="text/javascript">
+	var event_id = "{{event.title}}";
+	_gaq.push(['_trackPageview', '/2013/main/#events/'+event_id+'/']);
+</script>
+
 <div id="body">
   <div id="sidemenu">
     <div id="sidemenutitle"><p>{{event.title|cut:"H_"|cut:"B_"|cut:"P_"|cut:"C_"|cut:"Ch_"}}</p></div>
